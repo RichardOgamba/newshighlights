@@ -2,11 +2,11 @@ class Config:
     '''
     General configuration parent class
     '''
-    pass
+    MOVIE_API_BASE_URL ='https://api.newsapi.org./3/news/{}?api_key={}'
 
 class ProdConfig(Config):
     '''
-    production configuration child class 
+    production configuration child class
 
     Args:
         Config:The parent configuration class with General configuration settings
